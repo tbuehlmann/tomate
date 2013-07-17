@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['tobias.buehlmann@gmx.de']
   spec.summary       = 'Ruby based Pomodoro timer.'
   spec.description   = 'Starts a Pomodoro timer and notifies via notify-send.'
-  spec.homepage      = 'https://github.com/tbuelhmann/tomate'
+  spec.homepage      = 'https://github.com/tbuehlmann/tomate'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
