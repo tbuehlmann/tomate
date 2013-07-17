@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'tomate'
+
+options = Slop.parse(help: true) do
+  banner 'Usage: tomate [options]'
+
+  on :d, :delay,
+    "Delay in seconds (default: #{Tomate::Timer::DEFAULT_DELAY})",
+    argument: true,
+    as: Integer
+end
+
+timer = Tomate::Timer.new(options[:delay])
+timer.start
