@@ -13,8 +13,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/tbuehlmann/tomate'
   spec.license       = 'MIT'
 
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
   spec.files = %w(
     .rspec
@@ -30,6 +28,8 @@ Gem::Specification.new do |spec|
     spec/timer_spec.rb
     tomate.gemspec
   )
+  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
 
   spec.required_ruby_version = '>= 1.9.2'
   spec.add_dependency('slop', '~> 3.5')
