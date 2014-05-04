@@ -2,7 +2,7 @@ module Tomate
   class Timer
     DEFAULT_DELAY = 25*60
 
-    def initialize(delay)
+    def initialize(delay = nil)
       @delay = Integer(delay || DEFAULT_DELAY)
     end
 

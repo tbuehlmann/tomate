@@ -3,7 +3,6 @@ require 'spec_helper'
 describe Tomate::Timer do
   describe '#initialize' do
     it 'raises for an invalid delay' do
-      expect { described_class.new(nil) }.to raise_error(TypeError)
       expect { described_class.new('foo') }.to raise_error(ArgumentError)
     end
   end
