@@ -12,8 +12,6 @@ module Tomate
         sleep @delay
         Kernel.system('notify-send', '-u', 'critical', '-t', '60000', '-i',POMODORO_PNG, 'Pomodoro', 'Take a break, nerd!')
       end
-
-      Process.detach(pid)
     end
   end
 end
