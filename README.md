@@ -1,8 +1,9 @@
-# Tomate [![Gem Version](https://badge.fury.io/rb/tomate.png)](http://badge.fury.io/rb/tomate) [![Dependency Status](https://gemnasium.com/tbuehlmann/tomate.png)](https://gemnasium.com/tbuehlmann/tomate)
+# Tomate [![Gem Version](https://badge.fury.io/rb/tomate.png)](http://badge.fury.io/rb/tomate) [![Build Status](https://travis-ci.org/tbuehlmann/tomate.svg)](https://travis-ci.org/tbuehlmann/tomate) [![Dependency Status](https://gemnasium.com/tbuehlmann/tomate.png)](https://gemnasium.com/tbuehlmann/tomate)
 A Ruby based Pomodoro timer.
 
 ## Requirements
 - Ruby ≥ 1.9.2
+- Ability to fork (*nix) 
 - libnotify-bin
 
 ## Installation
