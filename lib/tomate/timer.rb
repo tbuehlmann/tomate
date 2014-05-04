@@ -10,9 +10,9 @@ module Tomate
       fork_only!
 
       fork do
-        system('notify-send', '-i', POMODORO_PNG, 'Pomodoro', "Timer started: #{@delay} seconds.")
+        system('notify-send', '-i', 'Pomodoro', "Timer started: #{@delay} seconds.")
         sleep @delay
-        system('notify-send', '-u', 'critical', '-t', '60000', '-i', POMODORO_PNG, 'Pomodoro', 'Take a break, nerd!')
+        system('notify-send', '-u', 'critical', '-t', '60000', '-i', 'Pomodoro', 'Take a break, nerd!')
       end
     end
 
