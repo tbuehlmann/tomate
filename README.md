@@ -1,6 +1,9 @@
 # Tomate [![Gem Version](https://badge.fury.io/rb/tomate.png)](http://badge.fury.io/rb/tomate) [![Build Status](https://travis-ci.org/tbuehlmann/tomate.svg)](https://travis-ci.org/tbuehlmann/tomate) [![Dependency Status](https://gemnasium.com/tbuehlmann/tomate.png)](https://gemnasium.com/tbuehlmann/tomate)
 A Ruby based Pomodoro timer.
 
+![Pomodoro Start](/images/pomodoro_start.png?raw=true "Pomodoro Start")
+![Pomodoro Finish](/images/pomodoro_finish.png?raw=true "Pomodoro Finish")
+
 ## Requirements
 - Ruby ≥ 1.9.2
 - Ability to fork (*nix) 
